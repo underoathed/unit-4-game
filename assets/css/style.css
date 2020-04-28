@@ -1,0 +1,16 @@
+/* body{
+    background: url("../images/background.jpg");
+} */
+
+#crystalscollector{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 25px 25px 25px;
+    margin: auto;
+    width: 20%;
+}
+
+#textdiv{
+    background-color: aquamarine;
+    width: 50%;
+}
