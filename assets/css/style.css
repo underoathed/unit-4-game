@@ -42,18 +42,20 @@ body{
 
 #totalnumber{
     background-color: cornflowerblue;
-    width: 100%;
+    /* width: 100%; */
     padding: 25px 25px 25px 25px;
     float: left;
     margin: 10px 10px 10px 10px;
+    display: inline-block;
 }
 
 #winslosses{
     background-color: darkslateblue;
-    width: 100%;
+    /* width: 100%; */
     padding: 25px 25px 25px 25px;
-    float: left;
+    /* float: left; */
     margin: 10px 10px 10px 10px;
+    display: block;
 }
 
 .clearfix {
