@@ -6,7 +6,7 @@
     <title>Crystal Guessing Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
     <h1 id="crystalscollector">Crystals Collector!</h1>
@@ -19,15 +19,16 @@
     <br>
     </div>
     <br>
-    <div id = "totalnumber">Total number goes here</div>
-    <div id = "winslosses">Wins and losses go here</div>
+    <div id = "randomnumber"></div>
+    <div id = "wins">Wins: </div>
+    <div id = "losses">Losses: </div>
     <br>
     <table id = "gemtable">
         <tr>
-            <td><img src="../assets/images/blue.jpg" id = "bluegem" class = "gems"></td>
-            <td><img src="../assets/images/green.jpg" id = "greengem" class = "gems"></td>
-            <td><img src="../assets/images/white.jpg" id = "whitegem" class = "gems"></td>
-            <td><img src="../assets/images/red.jpg" id = "redgem" class = "gems"></td>
+            <td><img src="../unit-4-game/assets/images/bluegem.jpg" id = "bluegem" class = "gems"></td>
+            <td><img src="../unit-4-game/assets/images/greengem.jpg" id = "greengem" class = "gems"></td>
+            <td><img src="../unit-4-game/assets/images/yellowgem.jpg" id = "yellowgem" class = "gems"></td>
+            <td><img src="../unit-4-game/assets/images/redgem.jpg" id = "redgem" class = "gems"></td>
         </tr>
     </table>
     <br>
@@ -35,4 +36,5 @@
     <p class = "totalscore" id ="tscore">Total score goes here</p>
 
 </body>
+<script src="../unit-4-game/assets/javascript/game.js"></script> 
 </html>

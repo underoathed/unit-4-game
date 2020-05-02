@@ -28,7 +28,7 @@ body{
     margin: 10px 10px 10px 10px;
 }
 
-#whitegem{
+#yellowgem{
     width: 150px;
     height: 120px;
     margin: 10px 10px 10px 10px;
@@ -40,24 +40,28 @@ body{
     margin: 10px 10px 10px 10px;
 }
 
-#totalnumber{
+#randomnumber{
     background-color: cornflowerblue;
-    /* width: 100%; */
     padding: 25px 25px 25px 25px;
-    float: left;
     margin: 10px 10px 10px 10px;
     display: inline-block;
 }
 
-#winslosses{
-    background-color: darkslateblue;
-    /* width: 100%; */
+#wins{
+    background-color: green;
     padding: 25px 25px 25px 25px;
-    /* float: left; */
+    float: left;
     margin: 10px 10px 10px 10px;
     display: block;
 }
 
+#losses{
+    background-color: darkslateblue;
+    padding: 25px 25px 25px 25px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    display: block;    
+}
 .clearfix {
     overflow: auto;
     clear: both;
